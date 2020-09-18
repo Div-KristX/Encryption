@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
      ques();
-     again();
+
 
 
 
@@ -44,6 +44,7 @@ public class Main {
                 chars[b]=(char) (chars[b]-key);
                 test2.append(chars[b]);}
             System.out.println(test2);
+            again();
 
 
 
@@ -70,6 +71,7 @@ public class Main {
         for(byte b=0; chars.length>b;b++){  chars[b]=(char) (chars[b]+key);
         test2.append(chars[b]);}
         System.out.println(test2);
+        again();
 
 
 
